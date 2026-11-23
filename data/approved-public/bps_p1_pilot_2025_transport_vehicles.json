@@ -1,0 +1,63 @@
+{
+  "source_id": "SRC-006",
+  "publication_tier": "P1",
+  "observation_period": "2025",
+  "granularity": "provincial_aggregate",
+  "headers": [
+    [
+      "Provinsi",
+      "Jumlah Kendaraan Bermotor - Mobil Penumpang",
+      "Jumlah Kendaraan Bermotor - Bus",
+      "Jumlah Kendaraan Bermotor - Truk",
+      "Jumlah Kendaraan Bermotor - Sepeda Motor",
+      "Jumlah Kendaraan Bermotor - Jumlah"
+    ],
+    [
+      "Aceh",
+      "223567 (*)",
+      "3021 (*)",
+      "81937 (*)",
+      "2590309 (*)",
+      "2898834"
+    ],
+    [
+      "Sumatera Utara",
+      "872015 (*)",
+      "10541 (*)",
+      "333530 (*)",
+      "7169777 (*)",
+      "8385863"
+    ],
+    [
+      "Sumatera Barat",
+      "386835 (*)",
+      "4959 (*)",
+      "134595 (*)",
+      "2584223 (*)",
+      "3110612"
+    ]
+  ],
+  "pilot_rows": {
+    "JAWA BARAT": [
+      "2980773 (*)",
+      "36679 (*)",
+      "779518 (*)",
+      "24260590 (*)",
+      "28057560"
+    ],
+    "NUSA TENGGARA BARAT": [
+      "132806 (*)",
+      "3297 (*)",
+      "99754 (*)",
+      "2244140 (*)",
+      "2479997"
+    ],
+    "INDONESIA": [
+      "20907972 (*)",
+      "308613 (*)",
+      "6474088 (*)",
+      "145247420 (*)",
+      "172938093"
+    ]
+  }
+}
