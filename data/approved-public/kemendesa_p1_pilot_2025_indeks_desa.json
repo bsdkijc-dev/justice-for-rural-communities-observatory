@@ -1,0 +1,181 @@
+{
+  "source_id": "SRC-011",
+  "publication_tier": "P1",
+  "observation_period": "2025",
+  "provinces": {
+    "32_JAWA_BARAT": {
+      "source_url": "https://sid.kemendesa.go.id/indeks-desa?tahun=2025&kode=32",
+      "villages_submitted": 5311,
+      "villages_scored": 5144,
+      "mean_score": 79.43,
+      "status_counts": {
+        "mandiri": 2698,
+        "maju": 2122,
+        "berkembang": 323,
+        "tertinggal": 1,
+        "sangat_tertinggal": 0,
+        "pending_calculation": 167
+      },
+      "profile_2025": {
+        "bum_desa": 5264,
+        "bum_desa_legal_entity": 3174,
+        "flood_prone": 1101,
+        "drought_prone": 835,
+        "landslide_prone": 1559,
+        "disaster_risk_study": 3859
+      },
+      "districts_shown_10_of_19": [
+        {
+          "district": "BOGOR",
+          "desa": 416,
+          "mandiri": 206,
+          "maju": 208,
+          "berkembang": 2
+        },
+        {
+          "district": "SUKABUMI",
+          "desa": 381,
+          "mandiri": 177,
+          "maju": 158,
+          "berkembang": 29
+        },
+        {
+          "district": "CIANJUR",
+          "desa": 354,
+          "mandiri": 105,
+          "maju": 157,
+          "berkembang": 51
+        },
+        {
+          "district": "BANDUNG",
+          "desa": 270,
+          "mandiri": 183,
+          "maju": 64,
+          "berkembang": 2
+        },
+        {
+          "district": "GARUT",
+          "desa": 421,
+          "mandiri": 164,
+          "maju": 178,
+          "berkembang": 64
+        },
+        {
+          "district": "TASIKMALAYA",
+          "desa": 351,
+          "mandiri": 96,
+          "maju": 216,
+          "berkembang": 38
+        },
+        {
+          "district": "CIAMIS",
+          "desa": 258,
+          "mandiri": 219,
+          "maju": 36,
+          "berkembang": 2
+        },
+        {
+          "district": "KUNINGAN",
+          "desa": 361,
+          "mandiri": 171,
+          "maju": 177,
+          "berkembang": 0
+        },
+        {
+          "district": "CIREBON",
+          "desa": 412,
+          "mandiri": 196,
+          "maju": 185,
+          "berkembang": 23
+        },
+        {
+          "district": "MAJALENGKA",
+          "desa": 330,
+          "mandiri": 193,
+          "maju": 126,
+          "berkembang": 3
+        }
+      ]
+    },
+    "52_NUSA_TENGGARA_BARAT": {
+      "source_url": "https://sid.kemendesa.go.id/indeks-desa?tahun=2025&kode=52",
+      "villages_submitted": 1021,
+      "villages_scored": 987,
+      "mean_score": 78.88,
+      "status_counts": {
+        "mandiri": 484,
+        "maju": 389,
+        "berkembang": 114,
+        "tertinggal": 0,
+        "sangat_tertinggal": 0,
+        "pending_calculation": 34
+      },
+      "profile_2025": {
+        "bum_desa": 1001,
+        "bum_desa_legal_entity": 533,
+        "flood_prone": 272,
+        "drought_prone": 151,
+        "landslide_prone": 102,
+        "disaster_risk_study": 636
+      },
+      "districts_complete_8_of_8": [
+        {
+          "district": "LOMBOK BARAT",
+          "desa": 119,
+          "mandiri": 46,
+          "maju": 59,
+          "berkembang": 10
+        },
+        {
+          "district": "LOMBOK TENGAH",
+          "desa": 142,
+          "mandiri": 83,
+          "maju": 40,
+          "berkembang": 9
+        },
+        {
+          "district": "LOMBOK TIMUR",
+          "desa": 239,
+          "mandiri": 165,
+          "maju": 67,
+          "berkembang": 7
+        },
+        {
+          "district": "SUMBAWA",
+          "desa": 157,
+          "mandiri": 71,
+          "maju": 66,
+          "berkembang": 12
+        },
+        {
+          "district": "DOMPU",
+          "desa": 72,
+          "mandiri": 32,
+          "maju": 33,
+          "berkembang": 4
+        },
+        {
+          "district": "BIMA",
+          "desa": 191,
+          "mandiri": 30,
+          "maju": 85,
+          "berkembang": 72
+        },
+        {
+          "district": "SUMBAWA BARAT",
+          "desa": 58,
+          "mandiri": 30,
+          "maju": 23,
+          "berkembang": 0
+        },
+        {
+          "district": "LOMBOK UTARA",
+          "desa": 43,
+          "mandiri": 27,
+          "maju": 16,
+          "berkembang": 0
+        }
+      ]
+    }
+  }
+}
