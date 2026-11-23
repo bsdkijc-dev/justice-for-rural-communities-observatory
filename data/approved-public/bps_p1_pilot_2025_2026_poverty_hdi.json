@@ -1,0 +1,536 @@
+{
+  "source_id": "SRC-006",
+  "publication_tier": "P1",
+  "observation_period": "2025-2026",
+  "granularity": "provincial_and_national_urban_rural",
+  "pilot_provinces": [
+    "JAWA BARAT (32)",
+    "NUSA TENGGARA BARAT (52)"
+  ],
+  "tables": {
+    "Persentase Penduduk Yang Hidup di Bawah Garis Kemiskinan Nasional, Menurut Kelompok Umur, 2025.csv": {
+      "headers": [
+        [
+          "Kelompok Umur 18",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Persentase Penduduk Yang Hidup di Bawah Garis Kemiskinan Nasional, Menurut Kelompok Umur (Persen)",
+          ""
+        ],
+        [
+          "",
+          "2025",
+          ""
+        ],
+        [
+          "",
+          "Semester 1 (Maret)",
+          "Semester 2 (September)"
+        ],
+        [
+          "Kurang dari 18 Tahun",
+          "11",
+          "-"
+        ]
+      ],
+      "pilot_and_national_rows": [
+        [
+          "Kelompok Umur 18",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Persentase Penduduk Yang Hidup di Bawah Garis Kemiskinan Nasional, Menurut Kelompok Umur (Persen)",
+          ""
+        ],
+        [
+          "",
+          "2025",
+          ""
+        ],
+        [
+          "",
+          "Semester 1 (Maret)",
+          "Semester 2 (September)"
+        ],
+        [
+          "Kurang dari 18 Tahun",
+          "11",
+          "-"
+        ],
+        [
+          "Lebih dari sama dengan 18 Tahun",
+          "7.46",
+          "-"
+        ]
+      ]
+    },
+    "Garis Kemiskinan, Jumlah, dan Persentase Penduduk Miskin, 2025.csv": {
+      "headers": [
+        [
+          "Tahun",
+          "Garis Kemiskinan - Perkotaan (rupiah/kapita/bulan) (Rp)",
+          "Garis Kemiskinan - Perdesaan (rupiah/kapita/bulan) (Rp)",
+          "Jumlah Penduduk Miskin - Perkotaan (ribu) (Ribu)",
+          "Jumlah Penduduk Miskin - Perdesaan (ribu) (Ribu)",
+          "Jumlah Penduduk Miskin - Perkotaan + Perdesaan (ribu) (Ribu)",
+          "Persentase Penduduk Miskin - Perkotaan",
+          "Persentase Penduduk Miskin - Perdesaan",
+          "Persentase Penduduk Miskin - Perkotaan+Perdesaan"
+        ],
+        [
+          "Maret/March",
+          "629561",
+          "580349",
+          "11269.83",
+          "12584.73",
+          "23854.56",
+          "6.73",
+          "11.03",
+          "8.47"
+        ],
+        [
+          "September/September",
+          "663081",
+          "610257",
+          "11183.28",
+          "12176.43",
+          "23359.71",
+          "6.6",
+          "10.72",
+          "8.25"
+        ]
+      ],
+      "pilot_and_national_rows": [
+        [
+          "Tahun",
+          "Garis Kemiskinan - Perkotaan (rupiah/kapita/bulan) (Rp)",
+          "Garis Kemiskinan - Perdesaan (rupiah/kapita/bulan) (Rp)",
+          "Jumlah Penduduk Miskin - Perkotaan (ribu) (Ribu)",
+          "Jumlah Penduduk Miskin - Perdesaan (ribu) (Ribu)",
+          "Jumlah Penduduk Miskin - Perkotaan + Perdesaan (ribu) (Ribu)",
+          "Persentase Penduduk Miskin - Perkotaan",
+          "Persentase Penduduk Miskin - Perdesaan",
+          "Persentase Penduduk Miskin - Perkotaan+Perdesaan"
+        ],
+        [
+          "Maret/March",
+          "629561",
+          "580349",
+          "11269.83",
+          "12584.73",
+          "23854.56",
+          "6.73",
+          "11.03",
+          "8.47"
+        ],
+        [
+          "September/September",
+          "663081",
+          "610257",
+          "11183.28",
+          "12176.43",
+          "23359.71",
+          "6.6",
+          "10.72",
+          "8.25"
+        ]
+      ]
+    },
+    "Jumlah dan Persentase Penduduk Miskin Menurut Provinsi, 2025.csv": {
+      "headers": [
+        [
+          "Provinsi",
+          "Garis Kemiskinan - Maret (Rp)",
+          "Garis Kemiskinan - September (Rp)",
+          "Jumlah Penduduk Miskin - Maret (ribu) (Ribu)",
+          "Jumlah Penduduk Miskin - September (ribu) (Ribu)",
+          "Persentase Penduduk Miskin - Maret",
+          "Persentase Penduduk Miskin - September"
+        ],
+        [
+          "Aceh",
+          "676247",
+          "715103",
+          "704.69",
+          "703.33",
+          "12.33",
+          "12.22"
+        ],
+        [
+          "Sumatera Utara",
+          "666546",
+          "718220",
+          "1140.25",
+          "1128.06",
+          "7.36",
+          "7.24"
+        ],
+        [
+          "Sumatera Barat",
+          "729806",
+          "776517",
+          "312.35",
+          "312.3",
+          "5.35",
+          "5.31"
+        ],
+        [
+          "Riau",
+          "713117",
+          "747345",
+          "460.96",
+          "475.57",
+          "6.16",
+          "6.3"
+        ]
+      ],
+      "pilot_and_national_rows": {
+        "Jawa Barat": [
+          "547752",
+          "575499",
+          "3654.75",
+          "3550.71",
+          "7.02",
+          "6.78"
+        ],
+        "Nusa Tenggara Barat": [
+          "556846",
+          "575856",
+          "654.57",
+          "637.18",
+          "11.78",
+          "11.38"
+        ],
+        "Indonesia": [
+          "609160",
+          "641443",
+          "23854.56",
+          "23359.71",
+          "8.47",
+          "8.25"
+        ]
+      }
+    },
+    "Indeks Kedalaman Kemiskinan dan Indeks Keparahan Kemiskinan Menurut Daerah, 2025.csv": {
+      "headers": [
+        [
+          "Tahun",
+          "Indeks Kedalaman Kemiskinan - Perkotaan",
+          "Indeks Kedalaman Kemiskinan - Perdesaan",
+          "Indeks Kedalaman Kemiskinan - Perkotaan+Perdesaan",
+          "Indeks Keparahan Kemiskinan - Perkotaan",
+          "Indeks Keparahan Kemiskinan - Perdesaan",
+          "Indeks Keparahan Kemiskinan - Perkotaan+Perdesaan"
+        ],
+        [
+          "Maret/March",
+          "1.06",
+          "1.81",
+          "1.37",
+          "0.25",
+          "0.43",
+          "0.32"
+        ],
+        [
+          "September/September",
+          "1.04",
+          "1.66",
+          "1.29",
+          "0.25",
+          "0.39",
+          "0.3"
+        ]
+      ],
+      "pilot_and_national_rows": [
+        [
+          "Tahun",
+          "Indeks Kedalaman Kemiskinan - Perkotaan",
+          "Indeks Kedalaman Kemiskinan - Perdesaan",
+          "Indeks Kedalaman Kemiskinan - Perkotaan+Perdesaan",
+          "Indeks Keparahan Kemiskinan - Perkotaan",
+          "Indeks Keparahan Kemiskinan - Perdesaan",
+          "Indeks Keparahan Kemiskinan - Perkotaan+Perdesaan"
+        ],
+        [
+          "Maret/March",
+          "1.06",
+          "1.81",
+          "1.37",
+          "0.25",
+          "0.43",
+          "0.32"
+        ],
+        [
+          "September/September",
+          "1.04",
+          "1.66",
+          "1.29",
+          "0.25",
+          "0.39",
+          "0.3"
+        ]
+      ]
+    },
+    "Karakteristik Rumah Tangga Miskin dan Rumah Tangga Tidak Miskin, 2025.csv": {
+      "headers": [
+        [
+          "Karakteristik Rumah Tangga",
+          "Rumah Tangga Miskin - Maret",
+          "Rumah Tangga Miskin - September",
+          "Rumah Tangga Tidak Miskin - Maret",
+          "Rumah Tangga Tidak Miskin - September"
+        ],
+        [
+          "Rata-rata jumlah anggota rumah tangga (orang)\nNumber of household members (person)",
+          "4.72",
+          "...",
+          "3.73",
+          "..."
+        ],
+        [
+          "Persentase kepala rumah tangga wanita\nPercentage of household headed by women",
+          "10.49",
+          "...",
+          "11.99",
+          "..."
+        ],
+        [
+          "Rata-rata usia kepala rumah tangga (tahun)\nAverage age of household head (years)",
+          "50.4",
+          "...",
+          "50.13",
+          "..."
+        ],
+        [
+          "Rata-rata lama sekolah kepala rumah tangga (tahun)\nMean years schooling of household head (years)",
+          "6.73",
+          "...",
+          "9.03",
+          "..."
+        ]
+      ],
+      "pilot_and_national_rows": [
+        [
+          "Karakteristik Rumah Tangga",
+          "Rumah Tangga Miskin - Maret",
+          "Rumah Tangga Miskin - September",
+          "Rumah Tangga Tidak Miskin - Maret",
+          "Rumah Tangga Tidak Miskin - September"
+        ],
+        [
+          "Rata-rata jumlah anggota rumah tangga (orang)\nNumber of household members (person)",
+          "4.72",
+          "...",
+          "3.73",
+          "..."
+        ],
+        [
+          "Persentase kepala rumah tangga wanita\nPercentage of household headed by women",
+          "10.49",
+          "...",
+          "11.99",
+          "..."
+        ],
+        [
+          "Rata-rata usia kepala rumah tangga (tahun)\nAverage age of household head (years)",
+          "50.4",
+          "...",
+          "50.13",
+          "..."
+        ],
+        [
+          "Rata-rata lama sekolah kepala rumah tangga (tahun)\nMean years schooling of household head (years)",
+          "6.73",
+          "...",
+          "9.03",
+          "..."
+        ],
+        [
+          "Tingkat pendidikan kepala rumah tangga (%)\nEducation level of household head (%)",
+          "...",
+          "...",
+          "...",
+          "..."
+        ],
+        [
+          "a. Tidak tamat SD/Not completed primary school",
+          "24.74",
+          "...",
+          "13.29",
+          "..."
+        ],
+        [
+          "b. SD/Primary school",
+          "37.98",
+          "...",
+          "27.86",
+          "..."
+        ],
+        [
+          "c. SMP/Junior high school",
+          "18.4",
+          "...",
+          "17.4",
+          "..."
+        ],
+        [
+          "d. SMA/Senior high school",
+          "17.1",
+          "...",
+          "30.32",
+          "..."
+        ],
+        [
+          "e. PT/University",
+          "1.78",
+          "...",
+          "11.12",
+          "..."
+        ],
+        [
+          "Sumber penghasilan utama rumah tangga (%)\nMain source of income (%)",
+          "...",
+          "...",
+          "...",
+          "..."
+        ],
+        [
+          "a. Tidak Bekerja/Unemployment",
+          "10.56",
+          "...",
+          "11.44",
+          "..."
+        ],
+        [
+          "b. Pertanian/Agriculture",
+          "45.67",
+          "...",
+          "29.32",
+          "..."
+        ],
+        [
+          "c. Industri/Manufacturing",
+          "19.35",
+          "...",
+          "20.41",
+          "..."
+        ],
+        [
+          "d. Lainnya/Others",
+          "24.42",
+          "...",
+          "38.83",
+          "..."
+        ]
+      ]
+    },
+    "Persentase Penduduk Miskin Di Daerah Tertinggal, 2025.csv": {
+      "headers": [
+        [
+          "Kategori Miskin",
+          ""
+        ],
+        [
+          "",
+          "Persentase Penduduk Miskin Di Daerah Tertinggal (Persen)"
+        ],
+        [
+          "",
+          "2025"
+        ],
+        [
+          "Miskin",
+          "22.78"
+        ]
+      ],
+      "pilot_and_national_rows": [
+        [
+          "Kategori Miskin",
+          ""
+        ],
+        [
+          "",
+          "Persentase Penduduk Miskin Di Daerah Tertinggal (Persen)"
+        ],
+        [
+          "",
+          "2025"
+        ],
+        [
+          "Miskin",
+          "22.78"
+        ]
+      ]
+    },
+    "[Metode Baru] Indeks Pembangunan Manusia (Umur Harapan Hidup Hasil Long Form SP2020), 2026.csv": {
+      "headers": [
+        [
+          "Provinsi/Kabupaten/Kota/Indonesia",
+          ""
+        ],
+        [
+          "",
+          "[Metode Baru] Indeks Pembangunan Manusia (Umur Harapan Hidup Hasil Long Form SP2020)"
+        ],
+        [
+          "",
+          "2026"
+        ],
+        [
+          "ACEH",
+          "76.87"
+        ],
+        [
+          "Simeulue",
+          "72.73"
+        ]
+      ],
+      "pilot_and_national_rows": {
+        "Provinsi/Kabupaten/Kota/Indonesia": [
+          ""
+        ],
+        "JAWA BARAT": [
+          "76.62"
+        ],
+        "NUSA TENGGARA BARAT": [
+          "74.73"
+        ],
+        "Lombok Barat": [
+          "74.47"
+        ],
+        "Lombok Tengah": [
+          "72.86"
+        ],
+        "Lombok Timur": [
+          "73.02"
+        ],
+        "Sumbawa": [
+          "73.89"
+        ],
+        "Dompu": [
+          "74.52"
+        ],
+        "Bima": [
+          "72.85"
+        ],
+        "Sumbawa Barat": [
+          "77.28"
+        ],
+        "Lombok Utara": [
+          "70.26"
+        ],
+        "Kota Bima": [
+          "80.28"
+        ],
+        "INDONESIA": [
+          "76.59"
+        ]
+      }
+    }
+  }
+}
