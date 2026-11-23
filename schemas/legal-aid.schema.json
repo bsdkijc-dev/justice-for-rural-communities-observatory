@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jrc-observatory.org/schemas/legal-aid.schema.json",
+  "title": "Dataset 05: Legal Aid Accessibility",
+  "description": "Availability, eligibility, and delivery channels of legal aid providers serving rural areas.",
+  "type": "object",
+  "required": [
+    "area_id",
+    "provider_type",
+    "service_availability",
+    "eligibility_information",
+    "service_channel",
+    "source_reference",
+    "observation_period"
+  ],
+  "properties": {
+    "area_id": { "type": "string", "minLength": 1 },
+    "provider_type": {
+      "type": "string",
+      "enum": ["obh_accredited", "posbakum_pengadilan", "posbankum_desa", "paralegal_community", "pro_bono_advocate"]
+    },
+    "service_availability": {
+      "type": "string",
+      "enum": ["available_in_district", "periodic_outreach", "remote_only", "not_available", "unknown"]
+    },
+    "eligibility_information": { "type": "string", "minLength": 1 },
+    "service_channel": {
+      "type": "string",
+      "enum": ["in_person", "mobile_sidang_keliling", "phone_or_messaging", "web_portal", "hybrid"]
+    },
+    "source_reference": { "type": "string", "minLength": 1 },
+    "observation_period": { "type": "string", "minLength": 4 },
+    "publication_tier": { "type": "string", "enum": ["P1", "P2", "P3", "P4", "P5"] },
+    "is_synthetic": { "type": "boolean" }
+  },
+  "additionalProperties": true
+}

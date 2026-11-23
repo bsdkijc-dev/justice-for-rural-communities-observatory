@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jrc-observatory.org/schemas/survey.schema.json",
+  "title": "Dataset 08: Rural Justice Experience Survey",
+  "description": "Anonymized rural justice experience survey schema (deployment gated by ethics & human approval).",
+  "type": "object",
+  "required": [
+    "anonymous_response_id",
+    "area_code",
+    "respondent_category",
+    "problem_type",
+    "awareness_of_rights",
+    "assistance_access",
+    "resolution_channel",
+    "perceived_cost_band",
+    "resolution_experience",
+    "consent_status"
+  ],
+  "properties": {
+    "anonymous_response_id": { "type": "string", "minLength": 1 },
+    "area_code": { "type": "string", "minLength": 2 },
+    "respondent_category": {
+      "type": "string",
+      "enum": ["rural_household", "smallholder_farmer", "small_scale_fisher", "informal_worker", "village_umkm", "woman_respondent", "older_person", "person_with_disability", "other_rural"]
+    },
+    "problem_type": {
+      "type": "string",
+      "enum": ["R01", "R02", "R03", "R04", "R05", "R06", "R07", "R08", "R09", "R10", "R11", "R12", "none_reported"]
+    },
+    "awareness_of_rights": { "type": "string", "enum": ["aware", "partially_aware", "unaware", "prefer_not_to_say"] },
+    "assistance_access": { "type": "string", "enum": ["formal_legal_aid", "paralegal_or_village", "family_or_community", "none", "not_needed"] },
+    "resolution_channel": { "type": "string", "enum": ["court", "village_mediation", "customary_adat", "administrative_agency", "direct_negotiation", "abandoned", "ongoing"] },
+    "perceived_cost_band": { "type": "string", "enum": ["no_cost", "low", "moderate", "high", "prohibitive", "unknown"] },
+    "resolution_experience": { "type": "string", "enum": ["resolved_fairly", "resolved_partially", "unresolved", "abandoned", "ongoing"] },
+    "consent_status": { "type": "string", "enum": ["informed_consent_recorded", "synthetic_test"] },
+    "publication_tier": { "type": "string", "enum": ["P1", "P2", "P3", "P4", "P5"] },
+    "is_synthetic": { "type": "boolean" }
+  },
+  "additionalProperties": true
+}

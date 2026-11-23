@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jrc-observatory.org/schemas/justice-cost.schema.json",
+  "title": "Dataset 06: Rural Justice Cost Indicators",
+  "description": "Official fee schedules and transparent cost measurement methods for rural justice access.",
+  "type": "object",
+  "required": [
+    "area_id",
+    "service_type",
+    "official_fee",
+    "transport_cost_method",
+    "assistance_cost_method",
+    "cost_reference_period",
+    "source_id"
+  ],
+  "properties": {
+    "area_id": { "type": "string", "minLength": 1 },
+    "service_type": { "type": "string", "minLength": 1 },
+    "official_fee": { "type": ["number", "null"], "minimum": 0, "description": "Pure numeric IDR value; null if waived (prodeo) or unavailable." },
+    "transport_cost_method": { "type": "string", "minLength": 1 },
+    "assistance_cost_method": { "type": "string", "minLength": 1 },
+    "cost_reference_period": { "type": "string", "minLength": 4 },
+    "source_id": { "type": "string", "minLength": 1 },
+    "publication_tier": { "type": "string", "enum": ["P1", "P2", "P3", "P4", "P5"] },
+    "is_synthetic": { "type": "boolean" }
+  },
+  "additionalProperties": true
+}

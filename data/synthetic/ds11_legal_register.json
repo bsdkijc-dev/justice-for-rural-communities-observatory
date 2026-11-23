@@ -1,0 +1,17 @@
+{
+  "schema": "legal-register.schema.json",
+  "records": [
+    {
+      "legal_id": "SYNTH-LEG-001",
+      "regulation_number": "PERMA No. 1 Tahun 2014 (Synthetic Sample)",
+      "title": "Pedoman Pemberian Layanan Hukum bagi Masyarakat Tidak Mampu di Pengadilan",
+      "issuing_authority": "Mahkamah Agung RI",
+      "effective_date": "2014-01-09",
+      "amendment_status": "in_force",
+      "official_source": "https://peraturan.bpk.go.id/Download/258652/Perma%20Nomor%201%20Tahun%202014.pdf?embed=True",
+      "verification_status": "synthetic",
+      "publication_tier": "P5",
+      "is_synthetic": true
+    }
+  ]
+}

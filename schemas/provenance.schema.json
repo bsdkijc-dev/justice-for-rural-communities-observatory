@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jrc-observatory.org/schemas/provenance.schema.json",
+  "title": "Dataset 10: Data Quality and Provenance Register",
+  "description": "Audit log of dataset validation, missingness, verification date, limitations, and publication tier.",
+  "type": "object",
+  "required": [
+    "record_id",
+    "dataset_id",
+    "source_id",
+    "validation_status",
+    "missingness_status",
+    "verification_date",
+    "reviewer",
+    "limitations",
+    "publication_status"
+  ],
+  "properties": {
+    "record_id": { "type": "string", "minLength": 1 },
+    "dataset_id": { "type": "string", "minLength": 1 },
+    "source_id": { "type": "string", "minLength": 1 },
+    "validation_status": { "type": "string", "enum": ["passed", "failed", "warning", "pending"] },
+    "missingness_status": { "type": "string", "minLength": 1 },
+    "verification_date": { "type": "string", "format": "date" },
+    "reviewer": { "type": "string", "minLength": 1 },
+    "limitations": { "type": "string", "minLength": 1 },
+    "publication_status": { "type": "string", "enum": ["P1", "P2", "P3", "P4", "P5"] },
+    "is_synthetic": { "type": "boolean" }
+  },
+  "additionalProperties": true
+}

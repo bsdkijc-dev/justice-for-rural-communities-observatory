@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jrc-observatory.org/schemas/policy-register.schema.json",
+  "title": "Dataset 12: Policy Recommendation Register",
+  "description": "Evidence-grounded policy recommendations with explicit institutional candidates and limitations.",
+  "type": "object",
+  "required": [
+    "recommendation_id",
+    "identified_problem",
+    "evidence_reference",
+    "affected_population",
+    "proposed_intervention",
+    "responsible_institution_candidate",
+    "expected_outcome",
+    "limitations",
+    "review_status"
+  ],
+  "properties": {
+    "recommendation_id": { "type": "string", "minLength": 1 },
+    "identified_problem": { "type": "string", "minLength": 1 },
+    "evidence_reference": { "type": "string", "minLength": 1 },
+    "affected_population": { "type": "string", "minLength": 1 },
+    "proposed_intervention": { "type": "string", "minLength": 1 },
+    "responsible_institution_candidate": { "type": "string", "minLength": 1 },
+    "expected_outcome": { "type": "string", "minLength": 1 },
+    "limitations": { "type": "string", "minLength": 1 },
+    "review_status": { "type": "string", "enum": ["draft", "internal_review", "human_approved", "synthetic_example"] },
+    "publication_tier": { "type": "string", "enum": ["P1", "P2", "P3", "P4", "P5"] },
+    "is_synthetic": { "type": "boolean" }
+  },
+  "additionalProperties": true
+}

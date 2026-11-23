@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jrc-observatory.org/schemas/rural-community-profile.schema.json",
+  "title": "Dataset 01: Rural Community Profile",
+  "description": "Official rural/urban classification and geographic typology of Indonesian villages/kelurahan.",
+  "type": "object",
+  "required": [
+    "record_id",
+    "province_code",
+    "district_code",
+    "subdistrict_code",
+    "village_code",
+    "rural_classification",
+    "geography_type",
+    "population_period",
+    "source_id",
+    "observation_period"
+  ],
+  "properties": {
+    "record_id": { "type": "string", "minLength": 1 },
+    "province_code": { "type": "string", "pattern": "^[0-9]{2}$" },
+    "district_code": { "type": "string", "pattern": "^[0-9]{4}$" },
+    "subdistrict_code": { "type": "string", "pattern": "^[0-9]{6,7}$" },
+    "village_code": { "type": "string", "pattern": "^[0-9]{10}$" },
+    "rural_classification": {
+      "type": "string",
+      "enum": ["perdesaan", "perkotaan", "unclassified"]
+    },
+    "geography_type": {
+      "type": "string",
+      "enum": ["rural", "remote", "border", "island", "mountainous", "coastal", "peri-urban"]
+    },
+    "population_period": { "type": "string", "minLength": 4 },
+    "source_id": { "type": "string", "minLength": 1 },
+    "observation_period": { "type": "string", "minLength": 4 },
+    "publication_tier": { "type": "string", "enum": ["P1", "P2", "P3", "P4", "P5"] },
+    "is_synthetic": { "type": "boolean" }
+  },
+  "additionalProperties": true
+}

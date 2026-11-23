@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jrc-observatory.org/schemas/legal-information.schema.json",
+  "title": "Dataset 07: Legal Information Accessibility",
+  "description": "Availability of plain-language, local-language, offline, and digital legal information channels.",
+  "type": "object",
+  "required": [
+    "area_id",
+    "information_channel",
+    "language_access",
+    "plain_language_availability",
+    "offline_access",
+    "digital_connectivity_indicator",
+    "source_id"
+  ],
+  "properties": {
+    "area_id": { "type": "string", "minLength": 1 },
+    "information_channel": { "type": "string", "minLength": 1 },
+    "language_access": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "plain_language_availability": { "type": "boolean" },
+    "offline_access": { "type": "boolean" },
+    "digital_connectivity_indicator": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
+    "source_id": { "type": "string", "minLength": 1 },
+    "publication_tier": { "type": "string", "enum": ["P1", "P2", "P3", "P4", "P5"] },
+    "is_synthetic": { "type": "boolean" }
+  },
+  "additionalProperties": true
+}

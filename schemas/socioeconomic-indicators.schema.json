@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jrc-observatory.org/schemas/socioeconomic-indicators.schema.json",
+  "title": "Dataset 09: Rural Socioeconomic Indicators",
+  "description": "Official aggregate socioeconomic, livelihood, education, and connectivity indicators by area.",
+  "type": "object",
+  "required": [
+    "area_code",
+    "poverty_indicator",
+    "employment_indicator",
+    "livelihood_type",
+    "education_indicator",
+    "connectivity_indicator",
+    "reference_period",
+    "source_id"
+  ],
+  "properties": {
+    "area_code": { "type": "string", "minLength": 2 },
+    "poverty_indicator": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
+    "employment_indicator": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
+    "livelihood_type": { "type": "string", "minLength": 1 },
+    "education_indicator": { "type": ["number", "null"], "minimum": 0 },
+    "connectivity_indicator": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
+    "reference_period": { "type": "string", "minLength": 4 },
+    "source_id": { "type": "string", "minLength": 1 },
+    "publication_tier": { "type": "string", "enum": ["P1", "P2", "P3", "P4", "P5"] },
+    "is_synthetic": { "type": "boolean" }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,12 @@
+# Verified Legal Authorities Register
+
+| Legal ID | Regulation Number | Title | Issuing Authority | Effective Date | Status | Official Source |
+|---|---|---|---|---|---|---|
+| `LEG-001` | UU No. 16 Tahun 2011 | Undang-Undang tentang Bantuan Hukum | Pemerintah RI & DPR RI | 2011-11-02 | `in_force` | [JDIH BPK](https://peraturan.bpk.go.id/Details/39234/uu-no-16-tahun-2011) |
+| `LEG-002` | UU No. 3 Tahun 2024 | Perubahan Kedua atas UU No. 6 Tahun 2014 tentang Desa | Pemerintah RI & DPR RI | 2024-04-25 | `in_force` | [JDIH BPK](https://peraturan.bpk.go.id/Details/283617/uu-no-3-tahun-2024) |
+| `LEG-003` | PERMA No. 1 Tahun 2014 | Pedoman Pemberian Layanan Hukum bagi Masyarakat Tidak Mampu di Pengadilan | Mahkamah Agung RI | 2014-01-09 | `in_force` | [JDIH BPK](https://peraturan.bpk.go.id/Download/258652/Perma%20Nomor%201%20Tahun%202014.pdf?embed=True) |
+| `LEG-004` | SK Dirjen Badilum No. 1084/DJU/SK.HM.1.1/X/2024 | Petunjuk Teknis PERMA No. 1 Tahun 2014 pada Lingkungan Peradilan Umum | Ditjen Badilum MA RI | 2024-10-11 | `implementing_rule` | [Ditjen Badilum](https://badilum.mahkamahagung.go.id/attachments/article/4523/SK-Juknis-Perma-1-Tahun-2014-sign.pdf) |
+| `LEG-005` | PERMA No. 1 Tahun 2015 | Pelayanan Terpadu Sidang Keliling PN dan PA/MS dalam Rangka Penerbitan Akta Perkawinan, Buku Nikah, dan Akta Kelahiran | Mahkamah Agung RI | 2015-08-05 | `in_force` | [JDIH KYRI](https://www.jdih.komisiyudisial.go.id/produk-hukum-peraturan/peraturan-mahkamah-agung-nomor-1-tahun-2015-tentang-pelayanan-terpadu-sidang-keliling-pengadilan-negeri-dan-pengadilan-agama-mahkamah-syariyah-dalam-rangka-penerbitan-akta-perkawinan-buku-nikah-dan-akta-kelahiran/378) |
+| `LEG-006` | Permenkumham No. 3 Tahun 2021 | Paralegal dalam Pemberian Bantuan Hukum | Kementerian Hukum dan HAM RI | 2021-02-01 | `in_force` | [BPHN](https://bphn.go.id/data/documents/permenkumham_3_tahun_2021_tentang_paralegal_dalam_pemberian_bantuan_hukum.pdf) |
+| `LEG-007` | Permendesa PDTT No. 9 Tahun 2024 | Indeks Desa | Kemendesa PDTT | 2024-09-01 | `in_force` | [JDIH Kemendesa](https://jdih.kemendesa.go.id/web/regulations/read/indeks-desa-9-2024) |
+| `LEG-008` | Perka BPS No. 37 Tahun 2010 | Klasifikasi Perkotaan dan Perdesaan di Indonesia | Badan Pusat Statistik (BPS) | 2010-08-01 | `in_force` | [PPID BPS](https://ppid.bps.go.id/upload/doc/Perka_BPS_No_37_Tahun_2010___Klasifikasi_Perkotaan_dan_Perdesaan_Di_Indonesia_Buku_2_-_Jawa_1659514400.pdf) |

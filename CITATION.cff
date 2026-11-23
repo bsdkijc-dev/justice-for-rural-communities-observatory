@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this repository, schemas, or methodology, please cite it as below."
+title: "Justice for Rural Communities Observatory (JRC Observatory)"
+abstract: "Independent research and public-interest knowledge repository investigating how access to justice shapes the wellbeing and economic security of Indonesia's rural communities under the MA Open Justice & Public Prosperity Initiative 2027–2030."
+type: software
+version: "0.1.0"
+date-released: "2026-11-23"
+license: MIT
+keywords:
+  - access to justice
+  - rural communities
+  - Indonesia
+  - open justice
+  - legal aid
+  - geospatial accessibility
+authors:
+  - name: "Justice for Rural Communities Observatory Research Team"
+repository-code: "https://github.com/bsdkijc-dev/justice-for-rural-communities-observatory"

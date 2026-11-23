@@ -1,0 +1,18 @@
+{
+  "schema": "policy-register.schema.json",
+  "records": [
+    {
+      "recommendation_id": "SYNTH-POL-001",
+      "identified_problem": "Synthetic example: long travel distances to district courts in island subdistricts.",
+      "evidence_reference": "SYNTH-DS03-DEMO",
+      "affected_population": "Small-scale fishers and island households",
+      "proposed_intervention": "Expand scheduled sidang keliling and Posbankum Desa paralegal referrals.",
+      "responsible_institution_candidate": "Pengadilan Agama / Pengadilan Negeri & Pemerintah Desa",
+      "expected_outcome": "Reduced travel time and upfront transport cost for eligible litigants.",
+      "limitations": "Synthetic P5 example; requires empirical validation before policy adoption.",
+      "review_status": "synthetic_example",
+      "publication_tier": "P5",
+      "is_synthetic": true
+    }
+  ]
+}

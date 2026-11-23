@@ -1,0 +1,16 @@
+{
+  "schema": "justice-cost.schema.json",
+  "records": [
+    {
+      "area_id": "5201010001",
+      "service_type": "court",
+      "official_fee": null,
+      "transport_cost_method": "synthetic_demo_no_empirical_claim",
+      "assistance_cost_method": "synthetic_demo_prodeo_waiver",
+      "cost_reference_period": "2025",
+      "source_id": "SYNTHETIC-TEST",
+      "publication_tier": "P5",
+      "is_synthetic": true
+    }
+  ]
+}

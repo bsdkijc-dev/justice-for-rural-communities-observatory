@@ -1,0 +1,17 @@
+{
+  "schema": "geographic-access.schema.json",
+  "records": [
+    {
+      "area_id": "5201010001",
+      "service_type": "court",
+      "travel_distance_km": 42.5,
+      "estimated_travel_time": 95,
+      "transport_availability": "intermittent_public",
+      "measurement_method": "synthetic_demo",
+      "observation_period": "2024",
+      "source_id": "SYNTHETIC-TEST",
+      "publication_tier": "P5",
+      "is_synthetic": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "justice-service-locations.schema.json",
+  "records": [
+    {
+      "service_id": "SYNTH-DS02-001",
+      "service_type": "court",
+      "institution_type": "Pengadilan Negeri (Synthetic Example)",
+      "province_code": "52",
+      "district_code": "5201",
+      "coordinates_if_authorized": null,
+      "source_id": "SYNTHETIC-TEST",
+      "verification_status": "synthetic",
+      "publication_tier": "P5",
+      "is_synthetic": true
+    }
+  ]
+}

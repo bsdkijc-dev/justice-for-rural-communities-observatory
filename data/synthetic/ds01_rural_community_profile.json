@@ -1,0 +1,33 @@
+{
+  "schema": "rural-community-profile.schema.json",
+  "records": [
+    {
+      "record_id": "SYNTH-DS01-001",
+      "province_code": "52",
+      "district_code": "5201",
+      "subdistrict_code": "5201010",
+      "village_code": "5201010001",
+      "rural_classification": "perdesaan",
+      "geography_type": "coastal",
+      "population_period": "2024",
+      "source_id": "SYNTHETIC-TEST",
+      "observation_period": "2024",
+      "publication_tier": "P5",
+      "is_synthetic": true
+    },
+    {
+      "record_id": "SYNTH-DS01-002",
+      "province_code": "52",
+      "district_code": "5208",
+      "subdistrict_code": "5208010",
+      "village_code": "5208010002",
+      "rural_classification": "perdesaan",
+      "geography_type": "mountainous",
+      "population_period": "2024",
+      "source_id": "SYNTHETIC-TEST",
+      "observation_period": "2024",
+      "publication_tier": "P5",
+      "is_synthetic": true
+    }
+  ]
+}

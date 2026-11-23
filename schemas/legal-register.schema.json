@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jrc-observatory.org/schemas/legal-register.schema.json",
+  "title": "Dataset 11: Legal and Policy Register",
+  "description": "Verified register of Indonesian statutes, regulations, and Supreme Court rules governing rural justice.",
+  "type": "object",
+  "required": [
+    "legal_id",
+    "regulation_number",
+    "title",
+    "issuing_authority",
+    "effective_date",
+    "amendment_status",
+    "official_source",
+    "verification_status"
+  ],
+  "properties": {
+    "legal_id": { "type": "string", "minLength": 1 },
+    "regulation_number": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "issuing_authority": { "type": "string", "minLength": 1 },
+    "effective_date": { "type": "string", "format": "date" },
+    "amendment_status": { "type": "string", "enum": ["in_force", "amended", "repealed", "implementing_rule"] },
+    "official_source": { "type": "string", "format": "uri" },
+    "verification_status": { "type": "string", "enum": ["verified", "pending_verification", "synthetic"] },
+    "publication_tier": { "type": "string", "enum": ["P1", "P2", "P3", "P4", "P5"] },
+    "is_synthetic": { "type": "boolean" }
+  },
+  "additionalProperties": true
+}

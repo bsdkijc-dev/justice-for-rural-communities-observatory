@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jrc-observatory.org/schemas/geographic-access.schema.json",
+  "title": "Dataset 03: Geographic Access Indicators",
+  "description": "Verified distance, travel time, and transport availability from rural areas to justice services.",
+  "type": "object",
+  "required": [
+    "area_id",
+    "service_type",
+    "travel_distance_km",
+    "estimated_travel_time",
+    "transport_availability",
+    "measurement_method",
+    "observation_period",
+    "source_id"
+  ],
+  "properties": {
+    "area_id": { "type": "string", "minLength": 1 },
+    "service_type": { "type": "string", "minLength": 1 },
+    "travel_distance_km": { "type": ["number", "null"], "minimum": 0 },
+    "estimated_travel_time": { "type": ["number", "null"], "minimum": 0, "description": "Estimated travel time in minutes." },
+    "transport_availability": {
+      "type": ["string", "null"],
+      "enum": ["daily_public", "intermittent_public", "private_or_charter_only", "maritime_weather_dependent", "foot_or_non_motorized", null]
+    },
+    "measurement_method": {
+      "type": "string",
+      "enum": ["road_network_routing", "multimodal_land_sea", "straight_line_euclidean", "official_survey_reported", "synthetic_demo"]
+    },
+    "observation_period": { "type": "string", "minLength": 4 },
+    "source_id": { "type": "string", "minLength": 1 },
+    "publication_tier": { "type": "string", "enum": ["P1", "P2", "P3", "P4", "P5"] },
+    "is_synthetic": { "type": "boolean" }
+  },
+  "additionalProperties": true
+}

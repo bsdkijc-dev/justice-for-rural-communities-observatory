@@ -1,0 +1,17 @@
+{
+  "schema": "provenance.schema.json",
+  "records": [
+    {
+      "record_id": "SYNTH-PROV-001",
+      "dataset_id": "DS01",
+      "source_id": "SYNTHETIC-TEST",
+      "validation_status": "passed",
+      "missingness_status": "0_missing_synthetic_demo",
+      "verification_date": "2026-11-23",
+      "reviewer": "Data Governance Agent (Automated)",
+      "limitations": "Synthetic P5 test record only; not empirical data.",
+      "publication_status": "P5",
+      "is_synthetic": true
+    }
+  ]
+}

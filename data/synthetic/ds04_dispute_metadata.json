@@ -1,0 +1,20 @@
+{
+  "schema": "dispute-metadata.schema.json",
+  "records": [
+    {
+      "dispute_id": "SYNTH-DS04-001",
+      "dispute_category": "R01",
+      "secondary_category": "R04",
+      "legal_domain": "agrarian",
+      "year": 2024,
+      "court_level": "first_instance",
+      "jurisdiction": "peradilan_umum",
+      "anonymized_location": "SYNTHETIC_DISTRICT_A",
+      "source_reference": "SYNTHETIC-TEST",
+      "verification_status": "synthetic",
+      "confidence_level": "high",
+      "publication_tier": "P5",
+      "is_synthetic": true
+    }
+  ]
+}

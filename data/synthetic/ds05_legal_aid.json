@@ -1,0 +1,16 @@
+{
+  "schema": "legal-aid.schema.json",
+  "records": [
+    {
+      "area_id": "5201010001",
+      "provider_type": "posbankum_desa",
+      "service_availability": "periodic_outreach",
+      "eligibility_information": "Synthetic test entry for SKTM/poor rural household eligibility.",
+      "service_channel": "in_person",
+      "source_reference": "SYNTHETIC-TEST",
+      "observation_period": "2025",
+      "publication_tier": "P5",
+      "is_synthetic": true
+    }
+  ]
+}

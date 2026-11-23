@@ -1,0 +1,17 @@
+{
+  "schema": "socioeconomic-indicators.schema.json",
+  "records": [
+    {
+      "area_code": "5201",
+      "poverty_indicator": 12.5,
+      "employment_indicator": 64.2,
+      "livelihood_type": "smallholder_agriculture",
+      "education_indicator": 7.8,
+      "connectivity_indicator": 58.0,
+      "reference_period": "2024",
+      "source_id": "SYNTHETIC-TEST",
+      "publication_tier": "P5",
+      "is_synthetic": true
+    }
+  ]
+}

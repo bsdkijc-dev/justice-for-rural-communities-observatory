@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jrc-observatory.org/schemas/dispute-metadata.schema.json",
+  "title": "Dataset 04: Rural Legal Dispute Metadata",
+  "description": "Anonymized metadata for legally verified rural disputes using controlled taxonomy R01-R12.",
+  "type": "object",
+  "required": [
+    "dispute_id",
+    "dispute_category",
+    "legal_domain",
+    "year",
+    "court_level",
+    "jurisdiction",
+    "anonymized_location",
+    "source_reference",
+    "verification_status"
+  ],
+  "properties": {
+    "dispute_id": { "type": "string", "minLength": 1 },
+    "dispute_category": {
+      "type": "string",
+      "enum": ["R01", "R02", "R03", "R04", "R05", "R06", "R07", "R08", "R09", "R10", "R11", "R12"]
+    },
+    "secondary_category": {
+      "type": ["string", "null"],
+      "enum": ["R01", "R02", "R03", "R04", "R05", "R06", "R07", "R08", "R09", "R10", "R11", "R12", null]
+    },
+    "legal_domain": {
+      "type": "string",
+      "enum": ["civil", "religious_family", "administrative", "criminal", "agrarian", "labor", "commercial", "environmental"]
+    },
+    "year": { "type": "integer", "minimum": 1990, "maximum": 2035 },
+    "court_level": {
+      "type": "string",
+      "enum": ["first_instance", "appellate", "cassation_ma", "non_court_mediation"]
+    },
+    "jurisdiction": {
+      "type": "string",
+      "enum": ["peradilan_umum", "peradilan_agama", "peradilan_tun", "non_judicial"]
+    },
+    "anonymized_location": { "type": "string", "minLength": 1 },
+    "source_reference": { "type": "string", "minLength": 1 },
+    "verification_status": {
+      "type": "string",
+      "enum": ["verified", "pending_review", "synthetic"]
+    },
+    "confidence_level": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
+    "publication_tier": { "type": "string", "enum": ["P1", "P2", "P3", "P4", "P5"] },
+    "is_synthetic": { "type": "boolean" }
+  },
+  "additionalProperties": true
+}

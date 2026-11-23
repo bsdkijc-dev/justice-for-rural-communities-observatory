@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://jrc-observatory.org/schemas/justice-service-locations.schema.json",
+  "title": "Dataset 02: Rural Justice Service Locations",
+  "description": "Locations of courts, court service units, legal aid providers, and mediation centers serving rural areas.",
+  "type": "object",
+  "required": [
+    "service_id",
+    "service_type",
+    "institution_type",
+    "province_code",
+    "district_code",
+    "coordinates_if_authorized",
+    "source_id",
+    "verification_status"
+  ],
+  "properties": {
+    "service_id": { "type": "string", "minLength": 1 },
+    "service_type": {
+      "type": "string",
+      "enum": ["court", "sidang_keliling", "posbakum_pengadilan", "posbankum_desa", "legal_aid_obh", "mediation_center", "village_service"]
+    },
+    "institution_type": { "type": "string", "minLength": 1 },
+    "province_code": { "type": "string", "pattern": "^[0-9]{2}$" },
+    "district_code": { "type": "string", "pattern": "^[0-9]{4}$" },
+    "coordinates_if_authorized": {
+      "type": ["object", "null"],
+      "properties": {
+        "latitude": { "type": "number", "minimum": -11.5, "maximum": 6.5 },
+        "longitude": { "type": "number", "minimum": 94.5, "maximum": 141.5 }
+      },
+      "required": ["latitude", "longitude"]
+    },
+    "source_id": { "type": "string", "minLength": 1 },
+    "verification_status": {
+      "type": "string",
+      "enum": ["verified", "pending_verification", "unverified", "synthetic"]
+    },
+    "publication_tier": { "type": "string", "enum": ["P1", "P2", "P3", "P4", "P5"] },
+    "is_synthetic": { "type": "boolean" }
+  },
+  "additionalProperties": true
+}

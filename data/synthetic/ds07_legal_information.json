@@ -1,0 +1,19 @@
+{
+  "schema": "legal-information.schema.json",
+  "records": [
+    {
+      "area_id": "5201010001",
+      "information_channel": "village_notice_board",
+      "language_access": [
+        "Indonesian",
+        "Sasak"
+      ],
+      "plain_language_availability": true,
+      "offline_access": true,
+      "digital_connectivity_indicator": 45.0,
+      "source_id": "SYNTHETIC-TEST",
+      "publication_tier": "P5",
+      "is_synthetic": true
+    }
+  ]
+}

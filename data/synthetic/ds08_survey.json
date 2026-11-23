@@ -1,0 +1,19 @@
+{
+  "schema": "survey.schema.json",
+  "records": [
+    {
+      "anonymous_response_id": "SYNTH-RESP-0001",
+      "area_code": "5201",
+      "respondent_category": "smallholder_farmer",
+      "problem_type": "R01",
+      "awareness_of_rights": "partially_aware",
+      "assistance_access": "paralegal_or_village",
+      "resolution_channel": "village_mediation",
+      "perceived_cost_band": "low",
+      "resolution_experience": "resolved_partially",
+      "consent_status": "synthetic_test",
+      "publication_tier": "P5",
+      "is_synthetic": true
+    }
+  ]
+}
