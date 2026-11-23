@@ -1,0 +1,21 @@
+{
+  "pilot_name": "JRC Observatory Two-Province Comparative Pilot",
+  "approval_date": "2026-11-23",
+  "approval_status": "APPROVED",
+  "provinces": [
+    {
+      "province_code": "52",
+      "province_name": "Nusa Tenggara Barat",
+      "geography_profile": ["rural", "coastal", "island", "mountainous"],
+      "rationale": "Active judicial expansion (5 new Pengadilan Agama announced Nov 2026) and archipelagic/coastal access contrast."
+    },
+    {
+      "province_code": "32",
+      "province_name": "Jawa Barat",
+      "geography_profile": ["rural", "mountainous", "coastal", "peri-urban"],
+      "rationale": "High population density, agrarian/plantation/UMKM disputes, and peri-urban vs. rural boundary testing."
+    }
+  ],
+  "allowed_publication_tiers": ["P1"],
+  "rate_limit_seconds": 2.0
+}

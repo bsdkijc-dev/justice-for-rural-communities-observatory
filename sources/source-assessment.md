@@ -1,7 +1,8 @@
 # Source Assessment Report & Pilot Geography Proposal (Phase 2)
 
 **Assessment Date:** 2026-11-23  
-**Mode:** SAFE MODE (Verification via public documentation and search; no mass crawling or restricted access)
+**Mode:** SAFE MODE (Verification via public documentation and search; no mass crawling or restricted access)  
+**Pilot Approval Status:** **APPROVED** (2026-11-23) — Two-Province Comparative Pilot: **Nusa Tenggara Barat (Province Code `52`)** and **Jawa Barat (Province Code `32`)**.
 
 ---
 
@@ -22,21 +23,15 @@
 
 ---
 
-## 2. Pilot Geography Proposal (For Human Review)
+## 2. Approved Pilot Geography (Two-Province Comparative Pilot)
 
-To avoid treating all rural areas as homogeneous and to test the Observatory's datasets across distinct geographic barriers, we propose **two contrasting pilot provinces/clusters** (requiring human approval before Phase 3 data collection):
+**Approved Decision (2026-11-23):** Proceed with a **two-province comparative pilot** combining **Nusa Tenggara Barat (NTB, `52`)** and **Jawa Barat (`32`)**, configured in `src/acquisition/pilot_config.json`.
 
-### Option A (Primary Recommended Pilot): **Nusa Tenggara Barat (NTB) — Rural, Coastal & Island Contrast**
-- **Selection Criteria:**
-  1. **Active Institutional Expansion:** [Ditjen Badilag](https://badilag.mahkamahagung.go.id/) announced on 23 November 2026 the opening of 5 new Pengadilan Agama in Lombok/NTB to bring services closer to island and rural communities—creating a natural, verifiable institutional baseline.
-  2. **Geographic Diversity:** Combines rural agricultural lowlands, mountainous interior villages, coastal fishing communities, and small islands.
-  3. **Data Availability:** Covered by BPS PODES, Kemendesa Indeks Desa, and NTB provincial/district JDIH ([storage.ntbprov.go.id/jdih](https://storage.ntbprov.go.id/jdih/produk-hukum/Lampiran%20III%20SPM%20Bidang%20Pekerjaan%20Umum.pdf)).
+### Pilot Cluster 1: **Nusa Tenggara Barat (`52`) — Rural, Coastal & Island Contrast**
+1. **Active Institutional Expansion:** [Ditjen Badilag](https://badilag.mahkamahagung.go.id/) announced on 23 November 2026 the opening of 5 new Pengadilan Agama in Lombok/NTB to bring services closer to island and rural communities.
+2. **Geographic Diversity:** Combines rural agricultural lowlands, mountainous interior villages, coastal fishing communities, and small islands.
+3. **Data Availability:** Covered by BPS PODES, Kemendesa Indeks Desa, and NTB provincial/district JDIH ([storage.ntbprov.go.id/jdih](https://storage.ntbprov.go.id/jdih/produk-hukum/Lampiran%20III%20SPM%20Bidang%20Pekerjaan%20Umum.pdf)).
 
-### Option B (Complementary Contrast Pilot): **Jawa Barat or Jawa Tengah — Agrarian, Mountainous & Peri-Urban Contrast**
-- **Selection Criteria:**
-  1. **High Case & OBH Density:** Dense network of Pengadilan Negeri/Agama, accredited OBH in SIDBANKUM, and documented *sidang keliling* / Posbakum programs (e.g., [PA Sukabumi](https://pa-sukabumi.go.id/images/Juknis_Pedoman_Layanan_Hukum.pdf), [BPS Blitar](https://blitarkab.bps.go.id/id/news/2024/05/15/247/pendataan-potensi-desa-podes-2024.html), [BPS Sumedang](https://sumedangkab.bps.go.id/en/news/2024/04/17/132/mengenal-potensi-desa--podes--2024.html)).
-  2. **Rural vs. Peri-Urban Testing:** Ideal for testing BPS Perka 37/2010 *perdesaan* vs. *perkotaan* boundaries and land/agrarian (`R01`), plantation (`R02`), and rural UMKM (`R07`) dispute metadata.
-
-**Unresolved Issues Requiring Human Review:**
-1. Confirm whether to proceed with **Option A (NTB)**, **Option B (West/Central Java)**, or a **two-province comparative pilot** for Days 31–45.
-2. Confirm `P1` redistribution clearance for BPS PODES / Kemendesa Indeks Desa extracts before populating `data/approved-public/`.
+### Pilot Cluster 2: **Jawa Barat (`32`) — Agrarian, Mountainous & Peri-Urban Contrast**
+1. **High Case & OBH Density:** Dense network of Pengadilan Negeri/Agama, accredited OBH in SIDBANKUM, and documented *sidang keliling* / Posbakum programs (e.g., [PA Sukabumi](https://pa-sukabumi.go.id/images/Juknis_Pedoman_Layanan_Hukum.pdf), [BPS Sumedang PODES 2024](https://sumedangkab.bps.go.id/en/news/2024/04/17/132/mengenal-potensi-desa--podes--2024.html)).
+2. **Rural vs. Peri-Urban Testing:** Ideal for testing BPS Perka 37/2010 *perdesaan* vs. *perkotaan* boundaries and land/agrarian (`R01`), plantation (`R02`), and rural UMKM (`R07`) dispute metadata.
