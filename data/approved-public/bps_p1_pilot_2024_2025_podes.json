@@ -1,0 +1,542 @@
+{
+  "source_id": "SRC-006",
+  "publication_tier": "P1",
+  "observation_period": "2024-2025",
+  "granularity": "provincial_aggregate",
+  "pilot_provinces": [
+    "JAWA BARAT (32)",
+    "NUSA TENGGARA BARAT (52)"
+  ],
+  "tables": {
+    "Banyaknya Desa_Kelurahan Menurut Jenis Pencemaran Lingkungan Hidup, 2025.csv": {
+      "headers": [
+        [
+          "38 Provinsi",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Banyaknya Desa/Kelurahan Menurut Jenis Pencemaran Lingkungan Hidup (Desa)",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Pencemaran Air",
+          "Pencemaran Tanah",
+          "Pencemaran Udara",
+          "Tidak Ada Pencemaran"
+        ],
+        [
+          "",
+          "2025",
+          "2025",
+          "2025",
+          "2025"
+        ],
+        [
+          "ACEH",
+          "254",
+          "24",
+          "167",
+          "6126"
+        ]
+      ],
+      "pilot_rows": {
+        "JAWA BARAT": [
+          "885",
+          "71",
+          "506",
+          "4800"
+        ],
+        "NUSA TENGGARA BARAT": [
+          "139",
+          "8",
+          "51",
+          "1013"
+        ]
+      }
+    },
+    "Banyaknya Desa_Kelurahan Menurut Keberadaan Keluarga Pengguna Listrik, 2025.csv": {
+      "headers": [
+        [
+          "38 Provinsi",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Banyaknya Desa/Kelurahan Menurut Keberadaan Keluarga Pengguna Listrik (Desa)",
+          "",
+          ""
+        ],
+        [
+          "",
+          "PLN",
+          "Non PLN",
+          "Tidak Ada"
+        ],
+        [
+          "",
+          "2025",
+          "2025",
+          "2025"
+        ],
+        [
+          "ACEH",
+          "6503",
+          "87",
+          "444"
+        ]
+      ],
+      "pilot_rows": {
+        "JAWA BARAT": [
+          "5956",
+          "76",
+          "126"
+        ],
+        "NUSA TENGGARA BARAT": [
+          "1174",
+          "25",
+          "34"
+        ]
+      }
+    },
+    "Banyaknya Desa_Kelurahan Menurut Keberadaan Permukiman Kumuh, 2024(1).csv": {
+      "headers": [
+        [
+          "38 Provinsi",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Banyaknya Desa/Kelurahan Menurut Keberadaan Permukiman Kumuh (Desa)",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Ada",
+          "Tidak Ada",
+          "Jumlah"
+        ],
+        [
+          "",
+          "2024",
+          "2024",
+          "2024"
+        ],
+        [
+          "ACEH",
+          "82",
+          "6434",
+          "6516"
+        ]
+      ],
+      "pilot_rows": {
+        "JAWA BARAT": [
+          "641",
+          "5316",
+          "5957"
+        ],
+        "NUSA TENGGARA BARAT": [
+          "56",
+          "1110",
+          "1166"
+        ]
+      }
+    },
+    "Banyaknya Desa_Kelurahan Menurut Keberadaan Permukiman Kumuh, 2024.csv": {
+      "headers": [
+        [
+          "38 Provinsi",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Banyaknya Desa/Kelurahan Menurut Keberadaan Permukiman Kumuh (Desa)",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Ada",
+          "Tidak Ada",
+          "Jumlah"
+        ],
+        [
+          "",
+          "2024",
+          "2024",
+          "2024"
+        ],
+        [
+          "ACEH",
+          "82",
+          "6434",
+          "6516"
+        ]
+      ],
+      "pilot_rows": {
+        "JAWA BARAT": [
+          "641",
+          "5316",
+          "5957"
+        ],
+        "NUSA TENGGARA BARAT": [
+          "56",
+          "1110",
+          "1166"
+        ]
+      }
+    },
+    "Banyaknya Desa_Kelurahan Menurut Keberadaan Permukiman di Bantaran Sungai, 2024.csv": {
+      "headers": [
+        [
+          "38 Provinsi",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Banyaknya Desa/Kelurahan Menurut Keberadaan Permukiman di Bantaran Sungai (Desa)",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Ada",
+          "Tidak Ada",
+          "Tidak Ada Sungai",
+          "Jumlah"
+        ],
+        [
+          "",
+          "2024",
+          "2024",
+          "2024",
+          "2024"
+        ],
+        [
+          "ACEH",
+          "360",
+          "3271",
+          "2885",
+          "6516"
+        ]
+      ],
+      "pilot_rows": {
+        "JAWA BARAT": [
+          "1078",
+          "4201",
+          "678",
+          "5957"
+        ],
+        "NUSA TENGGARA BARAT": [
+          "288",
+          "759",
+          "119",
+          "1166"
+        ]
+      }
+    },
+    "Banyaknya Desa_Kelurahan Menurut Keberadaan Permukiman di Bawah Saluran Udara Tegangan Ekstra Tinggi (SUTET), 2024.csv": {
+      "headers": [
+        [
+          "38 Provinsi",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Banyaknya Desa/Kelurahan Menurut Keberadaan Permukiman di Bawah Saluran Udara Tegangan Ekstra Tinggi (SUTET) (Desa)",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Ada",
+          "Tidak Ada",
+          "Tidak Ada SUTET",
+          "Jumlah"
+        ],
+        [
+          "",
+          "2024",
+          "2024",
+          "2024",
+          "2024"
+        ],
+        [
+          "ACEH",
+          "202",
+          "345",
+          "5969",
+          "6516"
+        ]
+      ],
+      "pilot_rows": {
+        "JAWA BARAT": [
+          "919",
+          "617",
+          "4421",
+          "5957"
+        ],
+        "NUSA TENGGARA BARAT": [
+          "110",
+          "116",
+          "940",
+          "1166"
+        ]
+      }
+    },
+    "Banyaknya Desa_Kelurahan Menurut Ketersediaan Lapangan Olahraga, 2024.csv": {
+      "headers": [
+        [
+          "38 Provinsi",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Banyaknya Desa/Kelurahan Menurut Ketersediaan Lapangan Olahraga (Desa)",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Sepak Bola",
+          "Bola Voli",
+          "Bulu Tangkis",
+          "Bola Basket",
+          "Tenis Lapangan",
+          "Futsal",
+          "Kolam Renang"
+        ],
+        [
+          "",
+          "2024",
+          "2024",
+          "2024",
+          "2024",
+          "2024",
+          "2024",
+          "2024"
+        ],
+        [
+          "ACEH",
+          "2760",
+          "3931",
+          "1088",
+          "125",
+          "87",
+          "597",
+          "39"
+        ]
+      ],
+      "pilot_rows": {
+        "JAWA BARAT": [
+          "4435",
+          "5222",
+          "4792",
+          "940",
+          "422",
+          "2044",
+          "889"
+        ],
+        "NUSA TENGGARA BARAT": [
+          "783",
+          "721",
+          "615",
+          "68",
+          "34",
+          "176",
+          "51"
+        ]
+      }
+    },
+    "Banyaknya Desa_Kelurahan Menurut Penggunaan Fasilitas Tempat Buang Air Besar Sebagian Besar Keluarga, 2024.csv": {
+      "headers": [
+        [
+          "38 Provinsi",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Banyaknya Desa/Kelurahan Menurut Penggunaan Fasilitas Tempat Buang Air Besar Sebagian Besar Keluarga (Desa)",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Jamban Sendiri",
+          "Jamban Bersama",
+          "Jamban Umum",
+          "Bukan jamban",
+          "Jumlah"
+        ],
+        [
+          "",
+          "2024",
+          "2024",
+          "2024",
+          "2024",
+          "2024"
+        ],
+        [
+          "ACEH",
+          "6201",
+          "31",
+          "179",
+          "105",
+          "6516"
+        ]
+      ],
+      "pilot_rows": {
+        "JAWA BARAT": [
+          "5940",
+          "10",
+          "7",
+          "0",
+          "5957"
+        ],
+        "NUSA TENGGARA BARAT": [
+          "1163",
+          "0",
+          "2",
+          "1",
+          "1166"
+        ]
+      }
+    },
+    "Banyaknya Desa_Kelurahan Menurut Upaya Antisipasi_Mitigasi Bencana Alam, 2025.csv": {
+      "headers": [
+        [
+          "38 Provinsi",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Banyaknya Desa/Kelurahan Menurut Upaya Antisipasi/Mitigasi Bencana Alam (Desa)",
+          "",
+          "",
+          ""
+        ],
+        [
+          "",
+          "Sistem Peringatan Dini Bencana Alam",
+          "Sistem Peringatan Dini Tsunami",
+          "Perlengkapan Keselamatan",
+          "Jalur Evakuasi"
+        ],
+        [
+          "",
+          "2025",
+          "2025",
+          "2025",
+          "2025"
+        ],
+        [
+          "ACEH",
+          "332",
+          "79",
+          "317",
+          "472"
+        ]
+      ],
+      "pilot_rows": {
+        "JAWA BARAT": [
+          "1748",
+          "27",
+          "1737",
+          "1262"
+        ],
+        "NUSA TENGGARA BARAT": [
+          "213",
+          "24",
+          "188",
+          "345"
+        ]
+      }
+    },
+    "Jumlah Desa_Kelurahan yang Mengalami Bencana Alam Menurut Provinsi, 2025.csv": {
+      "headers": [
+        [
+          "Provinsi",
+          "Jumlah Desa/Kelurahan yang Mengalami Bencana Alam - Banjir",
+          "Jumlah Desa/Kelurahan yang Mengalami Bencana Alam - Gempa Bumi",
+          "Jumlah Desa/Kelurahan yang Mengalami Bencana Alam - Tanah Longsor"
+        ],
+        [
+          "Aceh",
+          "1059",
+          "1092",
+          "105"
+        ],
+        [
+          "Sumatera Utara",
+          "621",
+          "1091",
+          "403"
+        ],
+        [
+          "Sumatera Barat",
+          "441",
+          "247",
+          "205"
+        ],
+        [
+          "Riau",
+          "638",
+          "–",
+          "11"
+        ]
+      ],
+      "pilot_rows": {
+        "JAWA BARAT": [
+          "823",
+          "1782",
+          "1175"
+        ],
+        "NUSA TENGGARA BARAT": [
+          "238",
+          "128",
+          "53"
+        ]
+      }
+    }
+  }
+}
