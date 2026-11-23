@@ -1,0 +1,196 @@
+{
+  "source_id": "SRC-006",
+  "publication_tier": "P1",
+  "observation_period": "2014-2018",
+  "granularity": "provincial_aggregate",
+  "pilot_provinces": [
+    "JAWA BARAT (32)",
+    "NUSA TENGGARA BARAT (52)"
+  ],
+  "tables": {
+    "Banyaknya Desa _Kelurahan Menurut Jenis Bahan Bakar untuk Memasak yang Digunakan oleh Sebagian Besar Keluarga dan Keberadaan Agen_Penjual Bahan Bakar, 2014.csv": {
+      "JAWA BARAT": [
+        "26",
+        "5,085",
+        "4",
+        "847",
+        "-",
+        "5,962",
+        "5,650",
+        "434",
+        "310",
+        "",
+        ""
+      ],
+      "NUSA TENGGARA BARAT": [
+        "-",
+        "446",
+        "301",
+        "394",
+        "-",
+        "1,141",
+        "613",
+        "485",
+        "237",
+        "",
+        ""
+      ]
+    },
+    "Banyaknya Desa _Kelurahan Menurut Keberadaan Sarana Perdagangan dan Akomodasi, 2014.csv": {
+      "JAWA BARAT": [
+        "2,008",
+        "1,189",
+        "5,248",
+        "5,858",
+        "373",
+        "367"
+      ],
+      "NUSA TENGGARA BARAT": [
+        "197",
+        "144",
+        "690",
+        "1,097",
+        "81",
+        "90"
+      ]
+    },
+    "Banyaknya Desa_Kelurahan Menurut Keberadaan Kelompok Pertokoan, Pasar, dan Kios Sarana Produksi Pertanian (Saprotan), 2014 & 2018.csv": {
+      "JAWA BARAT": [
+        "1 503",
+        "1 520",
+        "951",
+        "1 038",
+        "1 166",
+        "960",
+        "3 494",
+        "3 559",
+        "178",
+        "67",
+        "3 449",
+        "3 496",
+        "2 456",
+        "2 433"
+      ],
+      "NUSA TENGGARA BARAT": [
+        "162",
+        "137",
+        "242",
+        "266",
+        "193",
+        "174",
+        "686",
+        "690",
+        "44",
+        "23",
+        "634",
+        "748",
+        "495",
+        "388"
+      ]
+    },
+    "Banyaknya Desa_Kelurahan Menurut Keberadaan Keluarga Pengguna Listrik dan Sumber Penerangan Jalan Utama Desa, 2014 & 2018 .csv": {
+      "JAWA BARAT": [
+        "5 960",
+        "5 955",
+        "257",
+        "152",
+        "-",
+        "-",
+        "4 364",
+        "4 385",
+        "695",
+        "953",
+        "5",
+        "8",
+        "5 064",
+        "5 346",
+        ""
+      ],
+      "NUSA TENGGARA BARAT": [
+        "1 114",
+        "1 129",
+        "122",
+        "101",
+        "3",
+        "-",
+        "688",
+        "750",
+        "151",
+        "220",
+        "1",
+        "-",
+        "840",
+        "970",
+        ""
+      ]
+    },
+    "Banyaknya Desa_Kelurahan Menurut Keberadaan dan Jenis Industri Kecil dan Mikro, 2018.csv": {
+      "JAWA BARAT": [
+        "595",
+        "3965",
+        "557",
+        "1855",
+        "1553",
+        "2496",
+        "3637",
+        "993"
+      ],
+      "NUSA TENGGARA BARAT": [
+        "17",
+        "818",
+        "147",
+        "401",
+        "556",
+        "408",
+        "621",
+        "238"
+      ]
+    },
+    "Banyaknya Desa_Kelurahan Menurut Ketersediaan Ruang Publik Terbuka, Gedung Bioskop, Pub_Diskotek_Karaoke, dan Pusat Kebugaran, 2018.csv": {
+      "JAWA BARAT": [
+        "2109",
+        "-",
+        "258",
+        "1342"
+      ],
+      "NUSA TENGGARA BARAT": [
+        "315",
+        "-",
+        "46",
+        "110"
+      ]
+    },
+    "Jumlah Desa_Kelurahan Menurut Provinsi, 2016.csv": {
+      "JAWA BARAT": [
+        "5962"
+      ],
+      "NUSA TENGGARA BARAT": [
+        "1141"
+      ]
+    },
+    "Jumlah Kabupaten, 2016.csv": {
+      "JAWA BARAT": [
+        "18"
+      ],
+      "NUSA TENGGARA BARAT": [
+        "8"
+      ]
+    },
+    "Jumlah Kecamatan, 2016.csv": {
+      "JAWA BARAT": [
+        "627"
+      ],
+      "NUSA TENGGARA BARAT": [
+        "116"
+      ]
+    },
+    "Jumlah Kota, 2016.csv": {
+      "JAWA BARAT": [
+        "9"
+      ],
+      "NUSA TENGGARA BARAT": [
+        "2"
+      ]
+    }
+  }
+}
