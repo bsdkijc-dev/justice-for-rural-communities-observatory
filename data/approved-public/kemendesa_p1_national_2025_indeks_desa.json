@@ -1,0 +1,23 @@
+{
+  "source_id": "SRC-011",
+  "source_url": "https://sid.kemendesa.go.id/indeks-desa?tahun=2025",
+  "publication_tier": "P1",
+  "observation_period": "2025",
+  "granularity": "national_benchmark",
+  "national_summary": {
+    "villages_submitted": 74186,
+    "villages_scored": 72156,
+    "mean_score": 71.02,
+    "status_counts": {
+      "mandiri": 20138,
+      "maju": 22952,
+      "berkembang": 21021,
+      "tertinggal": 4248,
+      "sangat_tertinggal": 3797,
+      "pending_calculation": 2030
+    },
+    "bum_desa_villages": 64933,
+    "bum_desa_legal_entity": 30774
+  },
+  "pilot_provinces_status": "NOT_IN_PDF_PAGE_4_ONLY_FIRST_10_PROVINCES_SHOWN"
+}
