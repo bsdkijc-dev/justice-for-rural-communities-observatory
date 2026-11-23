@@ -1,0 +1,18 @@
+{
+  "title": "Justice for Rural Communities Observatory — Pilot NTB & Jawa Barat (P1)",
+  "id": "judicialcollege/justice-for-rural-communities-observatory-pilot",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "keywords": [
+    "access to justice",
+    "indonesia",
+    "rural communities",
+    "legal aid",
+    "open justice"
+  ],
+  "subtitle": "Verified P1 public aggregates (BPS 2014-2026, Kemendesa Indeks Desa 2025, Court & OBH Directories) for NTB and Jawa Barat.",
+  "description": "Independent public-interest research dataset under the MA Open Justice & Public Prosperity Initiative 2027-2030. Contains only P1 verified public aggregates and directory records with explicit limitations and zero imputation. Does not claim official endorsement by Mahkamah Agung RI or any government institution."
+}
