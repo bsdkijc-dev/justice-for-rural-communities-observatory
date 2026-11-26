@@ -1,4 +1,18 @@
-# Justice for Rural Communities Observatory (JRC Observatory)
+<div align="center">
+
+<img src="assets/logo.svg" alt="Justice for Rural Communities Observatory (JRC) Logo" width="140">
+
+# Justice for Rural Communities Observatory (JRC)
+
+### Investigating geographic, economic, and procedural barriers to justice in Indonesia's rural and village communities.
+
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat)](LICENSE) ![Stack](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white) [![CI](https://github.com/bsdkijc-dev/justice-for-rural-communities-observatory/actions/workflows/validate.yml/badge.svg)](https://github.com/bsdkijc-dev/justice-for-rural-communities-observatory/actions/workflows/validate.yml)
+
+[Documentation](research/) · [Repository](https://github.com/bsdkijc-dev/justice-for-rural-communities-observatory)
+
+</div>
+
+---
 
 **Tagline:** *Justice Within Reach. Stronger Rural Communities.*  
 **Parent Initiative:** MA Open Justice & Public Prosperity Initiative 2027–2030  
@@ -73,3 +87,13 @@ python3 src/validation/validate_all.py
 2. **Zero-Imputation & No Fabrication:** Missing official values remain empty (`null`/empty cell) with explicit missingness flags. Synthetic records in `data/synthetic/` are strictly labeled `P5` and must never be used to claim empirical findings.
 3. **Human Approval Gates:** No external institutional outreach, survey deployment, restricted system access, or public dataset/report release may proceed without explicit human approval.
 4. **Lawful Collection:** No CAPTCHA bypass, authentication bypass, rate-limit circumvention, or unauthorized mass crawling.
+
+---
+
+<div align="center">
+
+**Justice for Rural Communities Observatory (JRC)**
+
+[github.com/bsdkijc-dev/justice-for-rural-communities-observatory](https://github.com/bsdkijc-dev/justice-for-rural-communities-observatory)
+
+</div>
